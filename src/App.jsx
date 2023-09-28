@@ -7,6 +7,7 @@ import Avatar from './atomos/avatar';
 import Futbol from './futbol.jpg';
 import Card from './atomos/card';
 import Badge from './atomos/badge';
+import Counter from './atomos/counter';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Card title="BAYER DE MUNICH" content="one of the best teams in England and is recognized for its titles in Europe"/>
         <Card title="MANCHESTER UNITED" content="The team that leads the German league almost every year"/>
         <Badge label="The best players"/>
+        <Counter/>
       </div>
         <Footer content="Created with ❤️ by Nicolas"/>
     </div>
